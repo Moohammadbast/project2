@@ -1,0 +1,29 @@
+.hero{
+    background-color: #12284c;
+    color: #ffffff;
+}
+
+.profielfoto{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card a{
+    display: block;
+    overflow: hidden;
+}
+
+.card a img{
+    transition: transform 0.3s;
+}
+
+.card a:hover img{
+    transform: scale(1.05);
+}
