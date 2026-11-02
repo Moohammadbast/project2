@@ -1,0 +1,21 @@
+new Swiper(".skills-swiper",{
+    loop:true,
+    spaceBetween:20,
+    slidesPreview:1,
+    autoplay:{
+        delay:2500,
+        disableOnInteraction:false
+    },
+    breakpoints:{
+        576:{slidesPerView:2},
+        768:{slidesPerView:3}
+    },
+    pagination:{
+        el:".swiper-pagination",
+        clickable:true
+    },
+    navigation:{
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev"
+    }
+});

@@ -44,3 +44,21 @@
 .col-lg-8 .text-muted{
     color: #b8c4da !important;
 }
+
+.skills-swiper{
+    padding-bottom: 40px;
+}
+
+.skills-swiper .swiper-slide{
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.skills-swiper img{
+    height: 80px;
+    max-width: 100%;
+    object-fit: contain;
+}
