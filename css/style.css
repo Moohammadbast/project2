@@ -1,5 +1,8 @@
+:root{
+    --kleur-donker:#12284c;
+}
 .hero{
-    background-color: #12284c;
+    background-color:var(--kleur-donker);
     color: #ffffff;
 }
 
@@ -26,4 +29,18 @@
 
 .card a:hover img{
     transform: scale(1.05);
+}
+.col-lg-8 .card{
+    --bs-card-bg:var(--kleur-donker);
+    --bs-card-color:#ffffff;
+    --bs-card-border-color:#2a4f8f;
+}
+
+.col-lg-8 .list-group-item{
+    --bs-list-group-bg:var(--kleur-donker);
+    --bs-list-group-color:#ffffff;
+    --bs-list-group-border-color:#2a4f8f;
+}
+.col-lg-8 .text-muted{
+    color: #b8c4da !important;
 }
