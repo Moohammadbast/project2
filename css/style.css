@@ -88,3 +88,9 @@
 #hobbyCarousel .carousel-control-next:hover .carousel-control-next-icon{
     background-color: #2a4f8f;
 }
+
+.contact-kaart{
+    background-color: #12284c;
+    color: #ffffff;
+    border-color: #12284c;
+}
